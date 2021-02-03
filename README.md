@@ -62,6 +62,86 @@ $ npm run test:cov
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
 
+## steps to be taken
+
+### Overview
+
+- [x] controllers
+- [x] providers
+- [x] modules
+- [ ] middleware
+- [ ] exception filters
+- [ ] pipes
+- [ ] guard
+- [ ] interceptors
+- [ ] custom decorators
+
+### fundamentals
+
+- [ ] custom providers
+- [ ] asynchronous providers
+- [ ] dynamic modules
+- [ ] injection scopes
+- [ ] circular dependency
+- [ ] module reference
+- [ ] execution context
+- [ ] lifecycle events
+- [ ] platform agnosticism
+- [ ] testing
+
+### Techniques
+
+- [ ] database
+- [ ] mongo
+- [ ] configuration
+- [ ] validation
+- [ ] caching
+- [ ] serialization
+- [ ] task scheduling
+- [ ] queues
+- [ ] logging
+- [ ] cookies
+- [ ] compression
+- [ ] file upload
+- [ ] http module
+- [ ] session
+- [ ] model view controller
+- [ ] server sent events
+
+### security
+
+- [ ] authentication
+- [ ] authorization
+- [ ] encryption and hashing 
+- [ ] helmet 
+- [ ] cors 
+- [ ] csfr protection
+- [ ] rate limiting
+
+### web sockets
+
+- [ ] gateways
+- [ ] exception filters
+- [ ] pipes
+- [ ] guards
+- [ ] interceptions 
+- [ ] adapters
+
+### microservices 
+
+- [ ] overview 
+- [ ] redis
+- [ ] mqtt
+- [ ] nats
+- [ ] rabbitmq 
+- [ ] kafka
+- [ ] grpc
+- [ ] custom teleporters 
+- [ ] exception filters
+- [ ] pipes 
+- [ ] guards 
+- [ ] interceptions
+
 ## Stay in touch
 
 - Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
