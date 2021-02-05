@@ -1,6 +1,13 @@
 import { ICats } from './cats.interfaces';
 import { CatsService } from './cats.service';
-import { Body, Controller, Get, Post } from '@nestjs/common';
+import {
+  Body,
+  Controller,
+  Get,
+  HttpException,
+  HttpStatus,
+  Post,
+} from '@nestjs/common';
 
 @Controller('cats')
 export class CatsController {
@@ -13,6 +20,12 @@ export class CatsController {
 
   @Get()
   async findAll(): Promise<ICats[]> {
-    return this.catsService.findAll();
+    throw new HttpException(
+      {
+        status: HttpStatus.FORBIDDEN,
+        error: 'this is a custom message',
+      },
+      HttpStatus.FORBIDDEN,
+    );
   }
 }
