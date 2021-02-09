@@ -22,5 +22,8 @@ export class AppModule implements NestModule {
 
     // if you want to implements in just controller
     // consumer.apply(LoggerMiddleware).forRoutes(CatsController);
+
+    // how to connect in two or more databases with typeorm
+    // pass all conection config and import in module create and service
   }
 }
