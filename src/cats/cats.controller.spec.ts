@@ -13,6 +13,8 @@ describe('CatsController', () => {
   });
 
   it('should be defined', () => {
-    expect(controller).toBeDefined();
+    expect(
+      controller.create({ name: 'New cat', age: 20, breed: 'ok' }),
+    ).toBeDefined();
   });
 });
